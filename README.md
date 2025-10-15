@@ -5,6 +5,23 @@ The goal of this project is to strengthen foundational Cypress skills through ha
 
 ---
 
+## 🚀 Getting Started
+
+Follow these steps to set up and run the Cypress project on your local machine.
+
+### 1️⃣ Prerequisites
+
+Ensure you have the following installed:
+- **[Node.js](https://nodejs.org/)** (v16 or higher recommended)
+- **npm** (comes with Node)
+- **Git** (optional but recommended)
+- **VS Code** (for editing and running scripts easily)
+
+Check installation:
+```bash
+node -v
+npm -v
+
 ## 📁 Project Structure
 
 CYPRESS-TEST-PROJECTS

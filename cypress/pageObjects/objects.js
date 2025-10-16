@@ -63,11 +63,15 @@ export const checkboxObjects = {
 
 export const radioButtonObjects = {
     radioButtonPageUrl: 'https://www.cnarios.com/concepts/radio#try-it-yourself',
-    submitButton: '.MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary w-full css-17j8wdr',
+    submitButton: 'button.MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary w-full css-17j8wdr',
     radioButton: 'input[type="radio"]',
     answer1: '[value="get(url)"]', // Correct answer for Question 1
     answer2: 'input[type="radio"][value="To locate a single web element"]', // Correct answer for Question 2
     answer3: 'input[type="radio"][value="ID"]', // Correct answer for Question 3
     answer4: 'input[type="radio"][value="To provide explicit wait until a condition is met"]', // Correct answer for Question 4
-    resultMessage: '.text-center'
+    resultMessage: '.text-center',
+    xAnswer1: '[value="open(url)"]', // Incorrect answer for Question 1
+    xAnswer2: 'input[type="radio"][value="To submit a form"]', // Incorrect answer for Question 2
+    xAnswer3: 'input[type="radio"][value="XPath"]', // Incorrect answer for Question 3
+    xAnswer4: 'input[type="radio"][value="To stop execution permanently"]' // Incorrect answer for Question 4
 }

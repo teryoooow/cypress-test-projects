@@ -60,3 +60,14 @@ export const checkboxObjects = {
     doneButton: '.MuiDialogActions-root > .MuiButtonBase-root',
     newsFeed: '.max-w-3xl'
 }
+
+export const radioButtonObjects = {
+    radioButtonPageUrl: 'https://www.cnarios.com/concepts/radio#try-it-yourself',
+    submitButton: '.MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary w-full css-17j8wdr',
+    radioButton: 'input[type="radio"]',
+    answer1: '[value="get(url)"]', // Correct answer for Question 1
+    answer2: 'input[type="radio"][value="To locate a single web element"]', // Correct answer for Question 2
+    answer3: 'input[type="radio"][value="ID"]', // Correct answer for Question 3
+    answer4: 'input[type="radio"][value="To provide explicit wait until a condition is met"]', // Correct answer for Question 4
+    resultMessage: '.text-center'
+}

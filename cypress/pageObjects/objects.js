@@ -75,3 +75,12 @@ export const radioButtonObjects = {
     xAnswer3: 'input[type="radio"][value="XPath"]', // Incorrect answer for Question 3
     xAnswer4: 'input[type="radio"][value="To stop execution permanently"]' // Incorrect answer for Question 4
 }
+
+export const datepickerObjects = {
+    datepickerPageUrl: 'https://www.cnarios.com/concepts/datepicker#try-it-yourself',
+    addEmploymentButton: 'Add Employment',
+    companyInput: 'input[type="text"]',
+    dateInput: 'input[type="date"]',
+    startDateInput: '2022-01-01',
+    endDateInput: '2023-01-01'
+}

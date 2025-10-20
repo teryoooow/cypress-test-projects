@@ -84,3 +84,9 @@ export const datepickerObjects = {
     startDateInput: '2022-01-01',
     endDateInput: '2023-01-01'
 }
+
+export const dropdownObjects = {
+    dropdownPageUrl: 'https://www.cnarios.com/concepts/dropdown#try-it-yourself',
+    selectCountryDropdown: '#root > div > div.MuiContainer-root.MuiContainer-maxWidthLg.py-6.css-17nsc56 > div > div > div.tab-content.MuiBox-root.css-0 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.mb-6.css-x0wmhw > div > div > div > div > div',
+    currency: '#root > div > div.MuiContainer-root.MuiContainer-maxWidthLg.py-6.css-17nsc56 > div > div > div.tab-content.MuiBox-root.css-0 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.mb-6.css-x0wmhw > div > div > h6'
+}

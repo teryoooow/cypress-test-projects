@@ -88,5 +88,6 @@ export const datepickerObjects = {
 export const dropdownObjects = {
     dropdownPageUrl: 'https://www.cnarios.com/concepts/dropdown#try-it-yourself',
     selectCountryDropdown: '#root > div > div.MuiContainer-root.MuiContainer-maxWidthLg.py-6.css-17nsc56 > div > div > div.tab-content.MuiBox-root.css-0 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.mb-6.css-x0wmhw > div > div > div > div > div',
-    currency: '#root > div > div.MuiContainer-root.MuiContainer-maxWidthLg.py-6.css-17nsc56 > div > div > div.tab-content.MuiBox-root.css-0 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.mb-6.css-x0wmhw > div > div > h6'
+    currency: '#root > div > div.MuiContainer-root.MuiContainer-maxWidthLg.py-6.css-17nsc56 > div > div > div.tab-content.MuiBox-root.css-0 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.mb-6.css-x0wmhw > div > div > h6',
+    clearDropdownButton: '#root > div > div.MuiContainer-root.MuiContainer-maxWidthLg.py-6.css-17nsc56 > div > div > div.tab-content.MuiBox-root.css-0 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.mb-6.css-x0wmhw > div > div > div > div > div > div > button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.MuiAutocomplete-clearIndicator.css-1o3l9i0'
 }

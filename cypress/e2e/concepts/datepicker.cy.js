@@ -11,10 +11,7 @@ describe('Datepicker Tests', () => {
         cy.get('input[type="text"]').type('Google');
         cy.get(datepickerObjects.dateInput).eq(0).type(datepickerObjects.startDateInput);
         cy.get(datepickerObjects.dateInput).eq(1).type(datepickerObjects.endDateInput).blur();
-        // cy.get('body').type('{esc}'); // closes MUI datepicker
-        // cy.get('.MuiDialog-container', { timeout: 10000 }).should('not.exist');
-        cy.get('body').click(553, 286);
-        cy.contains('button', 'Add').click();
+        cy.get(datepickerObjects.addButton).click();
 
         // Verify the employment record is added
         cy.contains('Google').should('exist');

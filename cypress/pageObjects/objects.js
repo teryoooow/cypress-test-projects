@@ -82,7 +82,8 @@ export const datepickerObjects = {
     companyInput: 'input[type="text"]',
     dateInput: 'input[type="date"]',
     startDateInput: '2022-01-01',
-    endDateInput: '2023-01-01'
+    endDateInput: '2023-01-01',
+    addButton: 'body > div.MuiDialog-root.MuiModal-root.css-1egf66k > div.MuiDialog-container.MuiDialog-scrollPaper.css-8azq84 > div > div > div > button'
 }
 
 export const dropdownObjects = {
@@ -90,4 +91,11 @@ export const dropdownObjects = {
     selectCountryDropdown: '#root > div > div.MuiContainer-root.MuiContainer-maxWidthLg.py-6.css-17nsc56 > div > div > div.tab-content.MuiBox-root.css-0 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.mb-6.css-x0wmhw > div > div > div > div > div',
     currency: '#root > div > div.MuiContainer-root.MuiContainer-maxWidthLg.py-6.css-17nsc56 > div > div > div.tab-content.MuiBox-root.css-0 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.mb-6.css-x0wmhw > div > div > h6',
     clearDropdownButton: '#root > div > div.MuiContainer-root.MuiContainer-maxWidthLg.py-6.css-17nsc56 > div > div > div.tab-content.MuiBox-root.css-0 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.mb-6.css-x0wmhw > div > div > div > div > div > div > button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.MuiAutocomplete-clearIndicator.css-1o3l9i0'
+}
+
+export const timepickerObjects = {
+    timepickerPageUrl: 'https://www.cnarios.com/concepts/timepicker#try-it-yourself',
+    timeInput: '#root > div > div.MuiContainer-root.MuiContainer-maxWidthLg.py-6.css-17nsc56 > div > div > div.tab-content.MuiBox-root.css-0 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.mb-6.css-x0wmhw > div > div > div > input',
+    setTimeButton: 'Confirm',
+    resultMessage: '#root > div > div.MuiContainer-root.MuiContainer-maxWidthLg.py-6.css-17nsc56 > div > div > div.tab-content.MuiBox-root.css-0 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.mb-6.css-x0wmhw > div > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation0.MuiAlert-root.MuiAlert-colorSuccess.MuiAlert-standardSuccess.MuiAlert-standard.css-ne17bl > div.MuiAlert-message.css-127h8j3'
 }

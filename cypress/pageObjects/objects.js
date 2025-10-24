@@ -83,6 +83,7 @@ export const datepickerObjects = {
     dateInput: 'input[type="date"]',
     startDateInput: '2022-01-01',
     endDateInput: '2023-01-01',
+    deleteButton: '#root > div > div.MuiContainer-root.MuiContainer-maxWidthLg.py-6.css-17nsc56 > div > div > div.tab-content.MuiBox-root.css-0 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.mb-6.css-x0wmhw > div > div > div > div > button',
     errorMessage: 'body > div.MuiDialog-root.MuiModal-root.css-1egf66k > div.MuiDialog-container.MuiDialog-scrollPaper.css-8azq84 > div > div > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation0.MuiAlert-root.MuiAlert-colorWarning.MuiAlert-standardWarning.MuiAlert-standard.css-hb5djj > div.MuiAlert-message.css-127h8j3',
     addButton: 'body > div.MuiDialog-root.MuiModal-root.css-1egf66k > div.MuiDialog-container.MuiDialog-scrollPaper.css-8azq84 > div > div > div > button'
 }

@@ -86,4 +86,40 @@ describe('Datepicker Tests', () => {
         // Verify error message for invalid date range
         cy.contains('End date cannot be before start date.').should('exist');
     });
+
+    it('EMP_006	Add employment with same start and end date', () => {
+        cy.contains('Add Employment').click();
+        cy.get('input[type="text"]').type('Google');
+        cy.get(datepickerObjects.dateInput).eq(0).type('2022-01-01');
+        cy.get(datepickerObjects.dateInput).eq(1).type('2022-01-01').blur();
+        cy.get(datepickerObjects.addButton).click();
+        // Verify the employment record is added
+        cy.contains('Google').should('exist');
+        cy.contains('2022-01-01').should('exist');
+    });
+
+    it('EMP_007	Open employment modal and cancel without saving', () => {
+        cy.contains('Add Employment').click();
+        cy.get('input[type="text"]').type('Google');
+        cy.get(datepickerObjects.dateInput).eq(0).type('2022-01-01');
+        cy.get(datepickerObjects.dateInput).eq(1).type('2023-01-01').blur();
+        cy.get('body').type('{esc}');
+        // Verify no employment record is added
+        cy.contains('Google').should('not.exist');
+    });
+
+    it('EMP_008	Delete an existing employment record', () => {
+        // Add employment record first
+        cy.contains('Add Employment').click();
+        cy.get('input[type="text"]').type('Google');
+        cy.get(datepickerObjects.dateInput).eq(0).type('2022-01-01');
+        cy.get(datepickerObjects.dateInput).eq(1).type('2023-01-01').blur();
+        cy.get(datepickerObjects.addButton).click();
+        // Verify the employment record is added
+        cy.contains('Google').should('exist');
+        // Delete the employment record
+        cy.get(datepickerObjects.deleteButton).click();
+        // Verify the employment record is deleted
+        cy.contains('Google').should('not.exist');
+    });
 });

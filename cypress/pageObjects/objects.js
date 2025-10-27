@@ -98,6 +98,38 @@ export const dropdownObjects = {
 export const timepickerObjects = {
     timepickerPageUrl: 'https://www.cnarios.com/concepts/timepicker#try-it-yourself',
     timeInput: '#root > div > div.MuiContainer-root.MuiContainer-maxWidthLg.py-6.css-17nsc56 > div > div > div.tab-content.MuiBox-root.css-0 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.mb-6.css-x0wmhw > div > div > div > input',
-    setTimeButton: 'Confirm',
-    resultMessage: '#root > div > div.MuiContainer-root.MuiContainer-maxWidthLg.py-6.css-17nsc56 > div > div > div.tab-content.MuiBox-root.css-0 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.mb-6.css-x0wmhw > div > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation0.MuiAlert-root.MuiAlert-colorSuccess.MuiAlert-standardSuccess.MuiAlert-standard.css-ne17bl > div.MuiAlert-message.css-127h8j3'
+    confirmButton: '#root > div > div.MuiContainer-root.MuiContainer-maxWidthLg.py-6.css-17nsc56 > div > div > div.tab-content.MuiBox-root.css-0 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.mb-6.css-x0wmhw > div > div > button',
+    resultMessage: '#root > div > div.MuiContainer-root.MuiContainer-maxWidthLg.py-6.css-17nsc56 > div > div > div.tab-content.MuiBox-root.css-0 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.mb-6.css-x0wmhw > div > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation0.MuiAlert-root.MuiAlert-colorSuccess.MuiAlert-standardSuccess.MuiAlert-standard.css-ne17bl > div.MuiAlert-message.css-127h8j3',
+    errorResultMessage: '#root > div > div.MuiContainer-root.MuiContainer-maxWidthLg.py-6.css-17nsc56 > div > div > div.tab-content.MuiBox-root.css-0 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.mb-6.css-x0wmhw > div > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation0.MuiAlert-root.MuiAlert-colorError.MuiAlert-standardError.MuiAlert-standard.css-qswqkh > div.MuiAlert-message.css-127h8j3'
+}
+
+export const alertObjects = {
+    alertPageUrl: 'https://www.cnarios.com/concepts/alert#try-it-yourself',
+    successAlertMessage: '#root > div > div.MuiContainer-root.MuiContainer-maxWidthLg.py-6.css-17nsc56 > div > div > div.tab-content.MuiBox-root.css-0 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.mb-6.css-x0wmhw > div > div > div',
+    deletionCancelledMessage: '#root > div > div.MuiContainer-root.MuiContainer-maxWidthLg.py-6.css-17nsc56 > div > div > div.tab-content.MuiBox-root.css-0 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.mb-6.css-x0wmhw > div > div > div.mt-4.p-3.rounded.text-sm.font-medium.bg-gray-100.border.border-gray-300.text-gray-800',
+    deleteButton: '#root > div > div.MuiContainer-root.MuiContainer-maxWidthLg.py-6.css-17nsc56 > div > div > div.tab-content.MuiBox-root.css-0 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.mb-6.css-x0wmhw > div > div > div > button'
+}
+
+export const iframeObjects = {
+    iframePageUrl: 'https://www.cnarios.com/concepts/iframe#try-it-yourself',
+    iframeSelector: 'iframe',
+    cardNumber: '#cardNumber',
+    expiry: '#expiry',
+    cvv: '#cvv',
+    cardNumberErrorMessage: '#cardNumberError',
+    expiryErrorMessage: '#expiryError',
+    cvvErrorMessage: '#cvvError',
+    successMessage: 'body > div.MuiDialog-root.MuiModal-root.css-1egf66k > div.MuiDialog-container.MuiDialog-scrollPaper.css-8azq84 > div',
+    closeButton: 'body > div.MuiDialog-root.MuiModal-root.css-1egf66k > div.MuiDialog-container.MuiDialog-scrollPaper.css-8azq84 > div > div.MuiDialogActions-root.MuiDialogActions-spacing.css-8mwzdy > button',
+    submitButton: '#pay-btn'
+}
+
+export const modalObjects = {
+    modalPageUrl: 'https://www.cnarios.com/concepts/modal#try-it-yourself',
+    modalBackdrop: 'body > div.MuiModal-root.css-1sucic7 > div.MuiBackdrop-root.MuiModal-backdrop.css-14dl35y',
+    modalSelector: 'body > div.MuiModal-root.css-1sucic7 > div.MuiBox-root.css-19zhusc > h6',
+    item: '#root > div > div.MuiContainer-root.MuiContainer-maxWidthLg.py-6.css-17nsc56 > div > div > div.tab-content.MuiBox-root.css-0 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.mb-6.css-x0wmhw > div',
+    modalCancelButton: 'body > div.MuiModal-root.css-1sucic7 > div.MuiBox-root.css-19zhusc > div > button.MuiButtonBase-root.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.MuiButton-colorPrimary.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.MuiButton-colorPrimary.css-4tzcoq',
+    modalDeleteButton: 'body > div.MuiModal-root.css-1sucic7 > div.MuiBox-root.css-19zhusc > div > button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedError.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-colorError.MuiButton-root.MuiButton-contained.MuiButton-containedError.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-colorError.css-189juul',
+    deleteItemButton: '#root > div > div.MuiContainer-root.MuiContainer-maxWidthLg.py-6.css-17nsc56 > div > div > div.tab-content.MuiBox-root.css-0 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.mb-6.css-x0wmhw > div > button'
 }

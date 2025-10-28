@@ -133,3 +133,9 @@ export const modalObjects = {
     modalDeleteButton: 'body > div.MuiModal-root.css-1sucic7 > div.MuiBox-root.css-19zhusc > div > button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedError.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-colorError.MuiButton-root.MuiButton-contained.MuiButton-containedError.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-colorError.css-189juul',
     deleteItemButton: '#root > div > div.MuiContainer-root.MuiContainer-maxWidthLg.py-6.css-17nsc56 > div > div > div.tab-content.MuiBox-root.css-0 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.mb-6.css-x0wmhw > div > button'
 }
+
+export const tooltipObjects = {
+    tooltipPageUrl: 'https://www.cnarios.com/concepts/tooltip#try-it-yourself',
+    emailTooltip: '#root > div > div.MuiContainer-root.MuiContainer-maxWidthLg.py-6.css-17nsc56 > div > div > div.tab-content.MuiBox-root.css-0 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.mb-6.css-x0wmhw > div > div > form > div:nth-child(1) > button',
+    tooltipText: '.MuiTooltip-popper > .MuiPaper-root > .MuiTooltip-tooltip'
+}

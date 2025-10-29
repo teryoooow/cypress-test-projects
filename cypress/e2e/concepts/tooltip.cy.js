@@ -8,13 +8,19 @@ describe('Tooltip Tests', () => {
 
     it('TOOLTIP_001	Render newsletter subscription form with tooltips', () => {
         cy.get(tooltipObjects.emailTooltip).trigger('mouseover');
-        cy.get(tooltipObjects.emailTooltip).should('contain.text', 'We’ll send updates to this email.');
+        cy.contains('send updates to this email.').should('be.visible');
     });
 
-    // it('TOOLTIP_002	Validate required fields with tooltip guidance', () => {
-    //     cy.get(tooltipObjects.submitButton).click();
-    //     cy.get(tooltipObjects.nameTooltip).should('be.visible').and('contain.text', 'Name is required.');
-    //     cy.get(tooltipObjects.emailTooltip).should('be.visible').and('contain.text', 'Valid email is required.');
-    // });
+    it('TOOLTIP_002	Validate required fields with tooltip guidance', () => {
+        cy.get(tooltipObjects.submitButton).trigger('mouseover', { force: true });
+        cy.contains('Fill all fields before submitting').should('be.visible');
+    });
 
+    it('TOOLTIP_003	Successful form submission with tooltips', () => {
+        cy.get(tooltipObjects.emailInput).type('test@example.com');
+        cy.get(tooltipObjects.topicInput).click();
+        cy.get('ul[role="listbox"] > li').contains('Technology').click();
+        cy.get(tooltipObjects.submitButton).click();
+        cy.contains('🎉 Subscription successful!').should('be.visible');
+    });
 });

@@ -23,4 +23,12 @@ describe('Tooltip Tests', () => {
         cy.get(tooltipObjects.submitButton).click();
         cy.contains('🎉 Subscription successful!').should('be.visible');
     });
+
+    it('TOOLTIP_004	Invalid email format validation', () => {
+        cy.get(tooltipObjects.emailInput).type('user@invalid');
+        cy.get(tooltipObjects.topicInput).click();
+        cy.get('ul[role="listbox"] > li').contains('Sports').click();
+        cy.get(tooltipObjects.submitButton).click();
+        cy.contains('Fill all fields before submitting').should('be.visible');
+    })
 });

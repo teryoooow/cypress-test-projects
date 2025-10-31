@@ -143,3 +143,9 @@ export const tooltipObjects = {
     topicInput: '#root > div > div.MuiContainer-root.MuiContainer-maxWidthLg.py-6.css-17nsc56 > div > div > div.tab-content.MuiBox-root.css-0 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.mb-6.css-x0wmhw > div > div > form > div:nth-child(2) > div > div',
     submitButton: '#root > div > div.MuiContainer-root.MuiContainer-maxWidthLg.py-6.css-17nsc56 > div > div > div.tab-content.MuiBox-root.css-0 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.mb-6.css-x0wmhw > div > div > form > div.text-center.pt-4.MuiBox-root.css-0 > span > button'
 }
+
+export const keyboardObjects = {
+    keyboardPageUrl: 'https://www.cnarios.com/concepts/keyboard#try-it-yourself',
+    submitButton: '#root > div > div.MuiContainer-root.MuiContainer-maxWidthLg.py-6.css-17nsc56 > div > div > div.tab-content.MuiBox-root.css-0 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.mb-6.css-x0wmhw > div > div > div.flex.items-start.gap-2.MuiBox-root.css-0 > button',
+    inputField: '#root > div > div.MuiContainer-root.MuiContainer-maxWidthLg.py-6.css-17nsc56 > div > div > div.tab-content.MuiBox-root.css-0 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.mb-6.css-x0wmhw > div > div > div.flex.items-start.gap-2.MuiBox-root.css-0 > div > div'
+}

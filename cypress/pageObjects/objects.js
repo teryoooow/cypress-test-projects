@@ -156,8 +156,11 @@ export const keyboardObjects = {
 
 export const tableObjects = {
     tablePageUrl: 'https://www.cnarios.com/concepts/table#try-it-yourself',
+    table: '#root > div > div.MuiContainer-root.MuiContainer-maxWidthLg.py-6.css-17nsc56 > div > div > div.tab-content.MuiBox-root.css-0 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.mb-6.css-x0wmhw > div > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiTableContainer-root.css-1vqvrdr',
     tableSearch: '#root > div > div.MuiContainer-root.MuiContainer-maxWidthLg.py-6.css-17nsc56 > div > div > div.tab-content.MuiBox-root.css-0 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.mb-6.css-x0wmhw > div > div > div.flex.justify-between.mb-4 > div > div',
     addEmployee: '#root > div > div.MuiContainer-root.MuiContainer-maxWidthLg.py-6.css-17nsc56 > div > div > div.tab-content.MuiBox-root.css-0 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.mb-6.css-x0wmhw > div > div > div.flex.justify-between.mb-4 > button',
+    positionColumn: '#root > div > div.MuiContainer-root.MuiContainer-maxWidthLg.py-6.css-17nsc56 > div > div > div.tab-content.MuiBox-root.css-0 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.mb-6.css-x0wmhw > div > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiTableContainer-root.css-1vqvrdr > table > thead > tr > th:nth-child(2) > div',
+    employeeForm: 'body > div.MuiDialog-root.MuiModal-root.css-1egf66k > div.MuiDialog-container.MuiDialog-scrollPaper.css-8azq84 > div',
     employeeName: 'body > div.MuiDialog-root.MuiModal-root.css-1egf66k > div.MuiDialog-container.MuiDialog-scrollPaper.css-8azq84 > div > div.MuiDialogContent-root.flex.flex-col.gap-6.css-1nbx5hx > div:nth-child(1) > div',
     employeePosition: 'body > div.MuiDialog-root.MuiModal-root.css-1egf66k > div.MuiDialog-container.MuiDialog-scrollPaper.css-8azq84 > div > div.MuiDialogContent-root.flex.flex-col.gap-6.css-1nbx5hx > div:nth-child(2) > div',
     employeeDepartment: 'body > div.MuiDialog-root.MuiModal-root.css-1egf66k > div.MuiDialog-container.MuiDialog-scrollPaper.css-8azq84 > div > div.MuiDialogContent-root.flex.flex-col.gap-6.css-1nbx5hx > div:nth-child(3) > div',

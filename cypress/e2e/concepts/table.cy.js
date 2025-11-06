@@ -69,4 +69,28 @@ describe('table test', () => {
         cy.get(tableObjects.table).should('not.contain', 'George');
      });
 
+     it('EMP_007	Search with no matching results', () => {
+        cy.get(tableObjects.tableSearch).type('Zebra');
+        // Verify no results
+        cy.get(tableObjects.table).contains('No data found');
+     });
+
+     it('EMP_009	Edit modal opens with existing employee data', () => {
+        cy.get(tableObjects.editButton).click();
+        // Verify fields are correct
+        cy.get(tableObjects.employeeName).should('have.value', 'Alice Johnson');
+        cy.get(tableObjects.employeePosition).should('have.value', 'Software Engineer');
+        cy.get(tableObjects.employeeDepartment).should('have.value', 'Development');
+        cy.get(tableObjects.employeeLocation).should('have.value', 'New York');
+        cy.get(tableObjects.employeeEmail).should('have.value', 'alice.johnson@example.com');
+     });
+
+     it('EMP_010	Add employee with duplicate email', () => {
+        cy.get(tableObjects.addEmployee).click();
+        cy.get(tableObjects.employeeEmail).type('charlie.brown@example.com');
+        cy.get(tableObjects.saveButton).click();
+        cy.get('body').should('not.contain.text', '');
+        cy.get('body *').should('not.be.visible');
+     });
+
 });

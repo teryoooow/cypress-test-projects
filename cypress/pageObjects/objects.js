@@ -171,3 +171,8 @@ export const tableObjects = {
     editButton: '#root > div > div.MuiContainer-root.MuiContainer-maxWidthLg.py-6.css-17nsc56 > div > div > div.tab-content.MuiBox-root.css-0 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.mb-6.css-x0wmhw > div > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiTableContainer-root.css-1vqvrdr > table > tbody > tr:nth-child(1) > td:nth-child(6) > button:nth-child(1)',
     deleteButton: '#root > div > div.MuiContainer-root.MuiContainer-maxWidthLg.py-6.css-17nsc56 > div > div > div.tab-content.MuiBox-root.css-0 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.mb-6.css-x0wmhw > div > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiTableContainer-root.css-1vqvrdr > table > tbody > tr:nth-child(1) > td:nth-child(6) > button:nth-child(2)'
 }
+
+export const multiwindowObjects = {
+    multiwindowPageUrl: 'https://www.cnarios.com/concepts/multiwindow#try-it-yourself',
+    basicButton: '#root > div > div.MuiContainer-root.MuiContainer-maxWidthLg.py-6.css-17nsc56 > div > div > div.tab-content.MuiBox-root.css-0 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.mb-6.css-x0wmhw > div > div > div:nth-child(1) > div > ul > li:nth-child(1)'
+}

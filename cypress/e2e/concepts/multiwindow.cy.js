@@ -1,3 +1,4 @@
+import { it } from "mocha";
 import { multiwindowObjects } from "../../pageObjects/objects";
 
 describe('multiwindow tests', () => {
@@ -6,7 +7,12 @@ describe('multiwindow tests', () => {
     });
 
     it('QUICKLINKS_001	Open link in new tab', () => {
-        cy.visit(multiwindowObjects.multiwindowPageUrl);
         cy.get(multiwindowObjects.basicButton).click();
     });
+
+    it('QUICKLINKS_002	Open link in new window', () => {
+        cy.get(multiwindowObjects.basicButton).click();
+    });
+
+
 });

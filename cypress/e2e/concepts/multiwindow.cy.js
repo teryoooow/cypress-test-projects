@@ -14,13 +14,13 @@ describe('multiwindow tests', () => {
         cy.contains('Follow').should('be.visible'); 
     });
 
-    // it('QUICKLINKS_002    Open link in new window', () => {
-    //     cy.window().then((win) => {
-    //         cy.stub(win, 'open').as('windowOpen');
-    //     });
-    //     cy.get(multiwindowObjects.learnAboutTimePickerLink).find('a').click();
-    //     cy.get('@windowOpen').should('be.calledWith', '/concepts/timepicker', '_blank', 'width=800,height=600');
-    // });
+    it('QUICKLINKS_002    Open link in new window', () => {
+        cy.window().then((win) => {
+            cy.stub(win, 'open').as('windowOpen');
+        });
+        cy.get(multiwindowObjects.learnAboutTimePickerLink).find('a').click();
+        cy.get('@windowOpen').should('be.calledWith', '/concepts/timepicker', '_blank', 'width=800,height=600');
+    });
 
     it('QUICKLINKS_003 Broken or missing navigation', () => {
         cy.visit('/concepts/xyz', { failOnStatusCode: false });

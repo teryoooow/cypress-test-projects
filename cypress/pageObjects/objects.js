@@ -174,8 +174,8 @@ export const tableObjects = {
 
 export const multiwindowObjects = {
     multiwindowPageUrl: 'https://www.cnarios.com/concepts/multiwindow#try-it-yourself',
-    learnAboutButtonLink: '#root > div > div.MuiContainer-root.MuiContainer-maxWidthLg.py-6.css-17nsc56 > div > div > div.tab-content.MuiBox-root.css-0 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.mb-6.css-x0wmhw > div > div > div:nth-child(1) > div > ul > li:nth-child(1)',
-    learnAboutTimePickerLink: '#root > div > div.MuiContainer-root.MuiContainer-maxWidthLg.py-6.css-17nsc56 > div > div > div.tab-content.MuiBox-root.css-0 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.mb-6.css-x0wmhw > div > div > div:nth-child(2) > div > ul > li:nth-child(1)',
+    learnAboutButtonLink: 'a[href="/concepts/button"]',
+    learnAboutTimePickerLink: 'a[href="/concepts/timepicker"]',
     brokenLink: 'a[href="/concepts/xyz"]',
     notFoundHeader: '#root > div > div.min-h-screen.flex.flex-col.justify-center.items-center.bg-gray-100.text-center.px-4 > h1',
     basicButton: '#root > div > div.MuiContainer-root.MuiContainer-maxWidthLg.py-6.css-17nsc56 > div > div > div.tab-content.MuiBox-root.css-0 > div > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.mb-6.css-x0wmhw > div > div > div:nth-child(1) > div > ul > li:nth-child(1)'
